@@ -1,0 +1,1 @@
+The CSS property `calc()` is used to perform calculations, but it may produce unexpected results if not used correctly.  For instance, using `calc(100% - 50px)` within a nested element might not give the expected result if the parent's dimensions aren't defined correctly.  Incorrect use of units within the `calc()` function can also result in errors. 
