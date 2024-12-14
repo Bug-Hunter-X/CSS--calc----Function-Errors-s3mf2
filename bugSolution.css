@@ -1,0 +1,21 @@
+/*
+ * bugSolution.css: Correctly uses calc() by ensuring unit consistency and defining parent dimensions.
+ */
+
+.container {
+  width: 500px; /* Define parent container width */
+  height: 300px; /* Define parent container height */
+  background-color: lightgray;
+}
+
+.inner {
+  width: calc(100% - 100px); /* Correct: Consistent units */
+  height: calc(50% - 25px); /* Correct: Consistent units */
+  background-color: lightblue;
+  padding: 20px;
+  box-sizing: border-box; /* Ensures padding is included within the element dimensions */
+}
+
+/*
+ * Additional note: Avoid using calc with percentages unless the parent's dimension are explicitly defined
+ */
