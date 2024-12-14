@@ -1,0 +1,4 @@
+# CSS `calc()` Function Errors
+This repository demonstrates a common error encountered when using the CSS `calc()` function. Specifically, it highlights issues related to unit mismatch and the context in which the calculation is performed. The `bug.css` file contains the erroneous code, while `bugSolution.css` provides the corrected version.  The problem arises from improper handling of units within `calc()` and insufficiently defined parent elements causing unexpected results.
+
+To reproduce the bug, simply include the `bug.css` file in your HTML.  The corrected version (`bugSolution.css`) provides the solution with detailed explanations in comments.
